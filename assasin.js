@@ -1,6 +1,4 @@
-let hedersToFadeShow = document
-  .querySelector('.h1Section')
-  .querySelectorAll('h1')
+let hedersToFadeShow = document.querySelector('.h1Section').querySelectorAll('h1')
 let arrayFromHeaders = [
   hedersToFadeShow[0],
   hedersToFadeShow[1],
@@ -9,9 +7,7 @@ let arrayFromHeaders = [
   hedersToFadeShow[4],
 ]
 
-let imagesToSlie = document
-  .querySelector('.allAsasansImg')
-  .querySelectorAll('img')
+let imagesToSlie = document.querySelector('.allAsasansImg').querySelectorAll('img')
 let firstBack = imagesToSlie[0]
 
 let secondBack = imagesToSlie[1]
@@ -69,9 +65,7 @@ setInterval(function () {
   }
 }, 4000)
 
-let videoAsasins = document
-  .querySelector('.allAsasansDiv')
-  .querySelectorAll('iframe')
+let videoAsasins = document.querySelector('.allAsasansDiv').querySelectorAll('iframe')
 
 let videoPlayComponents = {
   a: [
